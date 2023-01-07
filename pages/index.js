@@ -61,11 +61,10 @@ export default function Home() {
             <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-200">
               Developer and Disigner of Software.
             </h3>
-            <p className="text-gray-800 text-md py-5 leading-8 md:text-xl max-w-2xl mx-auto dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos ex iure, est id quisquam amet minima? Perferendis iste
-              quaerat omnis.
+            <p className="text-gray-800 text-md pt-5 leading-8 md:text-xl max-w-xl mx-auto dark:text-gray-400">
+              Soy un estudiante del 2do ciclo en el área de <span className="text-teal-500">Diseño y Desarrollo de Software</span>  en el instituto <span className="text-teal-500">Certus</span> , tengo 18 años y soy una persona autodidacta que trata de mejorar día tras día.
             </p>
+            <p className="text-gray-800 text-md pb-5 leading-8 md:text-xl max-w-xl mx-auto dark:text-gray-400">Este es un pequeño portafolio y resumen de lo que llevo haciendo en React/Next.js :D</p>
           </div>
           {/* Icons */}
           <div className="flex justify-center gap-16 text-5xl py-3 text-slate-500 dark:text-gray-400">
