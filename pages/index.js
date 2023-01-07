@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           {/* Image */}
           <div className="relative rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:w-96 md:h-96">
-            <Image src={`${process.env.images}devJ`} layout="fill" objectFit="cover" alt="Avatar"/>
+            <Image src={devJ} layout="fill" objectFit="cover" alt="Avatar"/>
           </div>
         </section>
         {/* 2da section */}
