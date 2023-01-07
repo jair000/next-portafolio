@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           {/* Image */}
           <div className="relative rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:w-96 md:h-96">
-            <Image src={devJ} layout="fill" objectFit="cover" />
+            <Image src={devJ} layout="fill" objectFit="cover" alt="Avatar"/>
           </div>
         </section>
         {/* 2da section */}
@@ -102,7 +102,7 @@ export default function Home() {
                 src={design}
                 width={100}
                 height={100}
-                className="mx-auto"
+                className="mx-auto" alt="Design"
               />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -119,7 +119,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 dark:bg-gray-200">
-              <Image src={code} width={100} height={100} className="mx-auto" />
+              <Image src={code} width={100} height={100} className="mx-auto" alt="Code"/>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
@@ -139,7 +139,7 @@ export default function Home() {
                 src={consulting}
                 width={100}
                 height={100}
-                className="mx-auto"
+                className="mx-auto" alt="Consulting"
               />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -180,7 +180,7 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                layout="responsive" alt="web1"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -189,7 +189,7 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                layout="responsive" alt="web2"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -198,7 +198,7 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                layout="responsive" alt="web3"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -207,7 +207,7 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                layout="responsive" alt="web4"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -216,7 +216,7 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                layout="responsive" alt="web5"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -225,7 +225,7 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                layout="responsive" alt="web6"
               />
             </div>
           </div>
