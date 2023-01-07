@@ -97,7 +97,7 @@ export default function Home() {
           </div>
 
           <div className="lg:flex md:gap-10 py-10">
-            <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 dark:bg-gray-200">
+            <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 bg-gray-200">
               <Image
                 src={design}
                 width={100}
@@ -118,7 +118,7 @@ export default function Home() {
                 <li className="text-gray-800 py-1">Indesign</li>
               </ul>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 dark:bg-gray-200">
+            <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 bg-gray-200">
               <Image src={code} width={100} height={100} className="mx-auto" alt="Code"/>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -134,7 +134,7 @@ export default function Home() {
                 <li className="text-gray-800 py-1">Indesign</li>
               </ul>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 dark:bg-gray-200">
+            <div className="text-center shadow-lg p-10 rounded-xl py-10 mb-10 bg-gray-200">
               <Image
                 src={consulting}
                 width={100}
@@ -174,57 +174,45 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap pb-10">
-            <div className="basis-1/3 flex-1">
+            <div className="basis-2/6 flex-1">
               <Image
                 src={web1}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
                 layout="responsive" alt="web1"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-2/6 flex-1">
               <Image
                 src={web2}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
                 layout="responsive" alt="web2"
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web3}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="web3"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web4}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="web4"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web5}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive" alt="web5"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-2/6 flex-1">
               <Image
                 src={web6}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                layout="responsive" alt="web3"
+              />
+            </div>
+            <div className="basis-2/6 flex-1">
+              <Image
+                src={web4}
+                className="rounded-lg h-full"
+                layout="responsive" alt="web4"
+              />
+            </div>
+            <div className="basis-2/6 flex-1">
+              <Image
+                src={web5}
+                className="rounded-lg object-cover"
+                layout="responsive" alt="web5"
+              />
+            </div>
+            <div className="basis-2/6 flex-1">
+              <Image
+                src={web3}
+                className="rounded-lg object-cover"
                 layout="responsive" alt="web6"
               />
             </div>
