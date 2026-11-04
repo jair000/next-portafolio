@@ -17,8 +17,8 @@ const experiencia = [
     empresa: "Grupo Sima",
     fecha: "Oct. 2026 – Actualidad",
     logros: [
-      "Completé en aproximadamente dos semanas funcionalidades pendientes del ERP de Cima Inmobiliaria: ventas, cuotas, clientes, inmuebles, propietarios y cuentas bancarias.",
-      "Corregí un error en el sistema de Cima Parking que impedía el envío de comprobantes electrónicos a SUNAT.",
+      "Completé en aproximadamente dos semanas funcionalidades pendientes del ERP de Sima Inmobiliaria: ventas, cuotas, clientes, inmuebles, propietarios y cuentas bancarias.",
+      "Corregí un error en el sistema de Sima Parking que impedía el envío de comprobantes electrónicos a SUNAT.",
       "Amplié la facturación electrónica para emitir boletas además de facturas, con generación de PDF, XML y CDR.",
     ],
     stack: ["C#", "ASP.NET Core MVC", "Entity Framework", "React (Vite)", "SUNAT", "IIS"],
